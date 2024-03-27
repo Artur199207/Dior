@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/style.css">
     <title>Dior</title>
 </head>
@@ -47,8 +48,66 @@
             </div>
         </div>
     </header>
+    <section class="top">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="top__slide">
+                        <div class="container">
+                            <div class="top-slide__inner">
+                                <img src="images/dior1.webp" alt="" class="dior__gris">
+                                <div class="top-slider__content">
+                                    <h1 class="top-slide__title">
+                                        GRIS DIOR
+                                    </h1>
+                                    <p class="top-slide__subtitle">
+                                        Fragrance
+                                    </p>
+                                    <p class="top-slide__text">
+                                        With Gris Dior you dare to reveal your most surprising, mysterious and unexpected
+                                        facets.
+                                    </p>
+                                    <a href="#" class="top-slide__btn">DISCOVER</a>
+                                </div>
+                                <img src="images/dior2.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="top__slide" style="background-image: url(./images/slider1.webp);">
+                        <div class="container">
+                            <div class="top-slide__inner">
+                                <a href="#" class="top-slide__btn">YOUR NEW EXPERIENCE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="top__slide" style="background-image: url(./images/slider2.webp);">
+                        <div class="container">
+                            <div class="top-slide__inner">
+                                <a href="#" class="top-slide__btn">YOUR NEW EXPERIENCE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container-arrow">
+                <div class="swiper-button-prev">
+                    <img src="./images/line1.svg" alt="">
+                </div>
+                <div class="swiper-button-next">
+                    <img src="./images/line2.svg" alt="">
+                </div>
+            </div>
 
-    <script src="./style/style.css"></script>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
