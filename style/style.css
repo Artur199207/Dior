@@ -75,13 +75,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;  
+    padding: 0 10px;
 }
-.top__slide{
+
+.top__slide {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
 }
+
 .top-slider__content {
     flex-basis: 183px;
     margin-top: -88px;
@@ -103,32 +105,95 @@ body {
 }
 
 .top-slide__btn {
+    margin-left: auto;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #7449BB;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: none;
+}
+
+.container-arrow {
+    position: relative;
+    padding: 0;
+    max-width: 1200px;
+}
+
+.top .swiper {
+    padding-bottom: 50px;
+}
+
+.swiper-button-next {
+    left: 75px;
+    right: auto;
+}
+
+.aboute {
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+
+.aboute__inner {
+    padding-left: 200px;
+}
+
+.aboute__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 32px;
+    max-width: 185px;
+    text-transform: uppercase;
+}
+
+.aboute__textbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.aboute__text {
+    flex-basis: 387px;
+    line-height: 1.2;
+}
+.aboute__text  p{
+    margin-bottom: 15px;
+}
+.aboute__text-bold{
+    font-weight: 700;
+    margin-right: 200px;
+}
+.aboute__item-title{
+    margin-bottom: 20px;
+}
+.aboute__slider{
+    width: 1600px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.aboute__arrow{
+    margin-left: -200px;
+}
+.button{
     color: #7449BB;
     text-transform: uppercase;
     font-weight: 700;
     padding: 21px 55px;
     border: solid 1px #7449BB;
     display: inline-block;
-    margin-left: auto;
     transition: all .3s ease;
 }
-.top-slide__btn:hover{
-    color:#fff;
-    background-color: #7449BB;
-}
-.swiper-button-prev::after,
-.swiper-button-next::after{
-    content: none;
-}
-.container-arrow{
-    position: relative;
-    padding: 0;
-    max-width: 1200px;
-}
-.top .swiper{
-    padding-bottom: 50px;
-}
-.swiper-button-next{
-  left: 75px;
-  right: auto;  
+.aboute__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 386px;
+    min-height: 60px;
+    margin-left: 250px;
 }
